@@ -28,6 +28,7 @@ jobs:
           CI: true
         run: |
           npm ci
+          npm i -g @vercel/ncc
 
       # BUILD AND DEPLOT
       - name: buildwithdeploy
